@@ -1,0 +1,58 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #faf8f2;
+  --primary: #046d94;
+  --text: #2a2a2a;
+  --muted: #545454;
+  --border: #d4cfc4;
+  --tag-bg: #ece8de;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+}
