@@ -31,3 +31,4 @@ dist-ssr
 *.jpeg
 *.png
 !src/assets/**
+!public/zm-inital.jpg
