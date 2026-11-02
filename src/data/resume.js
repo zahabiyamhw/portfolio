@@ -11,6 +11,19 @@ export const personal = {
 
 export const experience = [
   {
+    id: 'fa-part',
+    company: 'Fintegrate Assocaiates',
+    role: 'Software Engineer',
+    type: 'Part-time',
+    location: 'Austin, TX',
+    period: 'Aug 2026 – Present',
+    bullets: [
+      'Building the client portal for the finance and tax advisory firm, enabling clients to manage their tax documents, schedule appointments, and view the tax timeline.',
+      'Maintaining and enhancing the existing internal workflow system for tax document processing, using Django(python), Supabase, and javascript.',
+      'Working closely with the tax team to understand their needs and provide solutions.',
+    ],
+  },
+  {
     id: 'almifdaal',
     company: 'AlMifdaal',
     role: 'API Data Integration',
